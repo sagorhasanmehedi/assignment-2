@@ -1,0 +1,147 @@
+/* font style */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header style */
+.benner{
+    
+    height: 677px;
+     background-color: #2D25A0;
+   
+}
+menu{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.title-img{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+  
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    background-color: crimson;
+    
+}
+.benner-titel h1{
+    color: #FFFFFF;
+    font-size: 64px;
+   
+    
+    
+
+}
+
+
+.benner-img img{
+    height: 438px;
+    width: 556px;
+    padding-top: 50px
+  }
+  .button{
+    height: 44px;
+    width: 168px;
+    font-size: 16px;
+   
+    
+    background: #E02C6D;
+    color: white;
+    
+    
+
+
+    
+  } 
+  
+  /* body-styles */
+
+  .all-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+      
+      
+      
+      
+  }
+
+  .img img{
+    height: 256px;
+    width: 300px;
+   
+    
+  }
+  .player-card{
+    height: 474px;
+    width: 330px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    box-shadow: 0px 0px 40px gainsboro;
+   
+    
+  }
+  .player{
+    height: 426px;
+    width: 300px;
+    left: 15px;
+    top: 15px;
+    border-radius: 0px;
+    
+  }
+  .player-position{
+   
+    
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 220px;
+    
+    
+      
+  }
+  .player-position .player-card{
+      margin: 30PX;
+  }
+  footer{
+    height: 213px;
+    width: 484px;
+   
+    margin-left: 630px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+    
+    
+  }
+  .footer-img img{
+    height: 110px;
+    width: 483px;
+  
+    
+  }
+  .footer-icone{
+    
+   
+    color: gray;
+    display: flex;
+   padding-left: 135px;
+    gap: 14px;
+    font-size: 30px;
+   
+   
+    
+  }
+  .copyright{
+      align-items: center;
+      padding-left: 123px;
+      padding-top: 20px;
+  }
+     
